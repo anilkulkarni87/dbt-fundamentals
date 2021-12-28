@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: The final Customer tables
+    columns:
+      - name: lifetime_value
+        description: '{{ doc("lifetime_value") }}'
